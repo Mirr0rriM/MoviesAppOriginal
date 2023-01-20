@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MoviesApp.Models
+namespace MoviesApp.ViewModels
 {
-    public class Actor
+
+    public class InputActorViewModel
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
 
